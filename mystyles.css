@@ -6,16 +6,18 @@
 }
 .topnav a {
 	float:left;
-	color: black;
+	color:white;
 	text-align: center;
 	padding:14px 16px 14px 16px;
 	text-decoration: none;
 	font-size: 20px;
+	font-weight: 200;
+	
 }
 
 .topnav a:hover{
-	background-color:black;
-	color:white;
+	background-color:white;
+	color:orangered;
 }
 
 
@@ -37,7 +39,7 @@ body, html{
 	position:relative;
 	border:solid;
 	border-width: 5px;
-	border-color: deepskyblue;
+	border-color:darkgray;
 }
 
 .hero-text{
@@ -46,17 +48,17 @@ body, html{
 	top:10%;
     left: 65%;
     transform:translate(-50%, -50%);
-	color:black;
-	font-size: 25px;
+	color:orangered;
+	font-size: 24px;
 	background-color:rgba(236,242,243,0.5);
-	text-shadow: 1px 1px 1px deepskyblue;
+	text-shadow: 1px 1px 1px black;
 }
 
 h2{
-	color:black;
-	background-color:lightskyblue;
+	color:orangered;
+	background-color:rgba(200,208,210,0.5);
 	font-size:22pt;
-	font-style: normal;
+	font-style: italic;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px white;
 	
@@ -70,7 +72,7 @@ body{
 p{
 	color:black;
 	font-size:20px;
-	font-weight:100;
+	font-weight:200;
 	
 }
 
@@ -78,20 +80,30 @@ p{
 	color:black;
 	font-size:20px;
 	font-weight: 100;
+
 }
 
 footer{
 	color:black;
-	background-color: lightskyblue;
+	background-color:whitesmoke;
 	text-shadow: 1px 1px 1px white;
 	text-align: center;
+	padding: 16px 10px 10px 16px;
 }
 
 h3{
+	color:orangered;
+	background-color:whitesmoke;
+	font-size:20pt;
+	text-decoration: nose;
+	text-shadow: 1px 1px 1px white;
+    font-style: italic;
+}
+
+
+h5{
 	color:black;
-	background-color:lightskyblue;
-	font-size:22pt;
-	font-style: normal;
-	text-decoration: none;
-	text-shadow: 1px 1px 1px white
+	font-family:alice;
+	font-size: 16pt;
+	font-weight: 300;
 }
