@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+.topnav{
+	background-color:deepskyblue;
+	overflow: hidden;
+}
+.topnav a {
+	float:left;
+	color: black;
+	text-align: center;
+	padding:14px 16px 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.topnav a:hover{
+	background-color:black;
+	color:white;
+}
+
+
+.topnav a.active{
+	background-color:black;
+	color:white;
+}
+
+body, html{
+	height:90%;
+}
+
+.hero-image{
+	background-image: url("images/oie_9161647KUtmEJAk.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+	border:solid;
+	border-width: 5px;
+	border-color: deepskyblue;
+}
+
+.hero-text{
+	text-align:justify;
+	position: absolute;
+	top:10%;
+    left: 65%;
+    transform:translate(-50%, -50%);
+	color:black;
+	font-size: 25px;
+	background-color:rgba(236,242,243,0.5);
+	text-shadow: 1px 1px 1px deepskyblue;
+}
+
+h2{
+	color:black;
+	background-color:lightskyblue;
+	font-size:22pt;
+	font-style: normal;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px white;
+	
+}
+
+body{
+	background-color: rgba(200,208,210,0.5)
+}
+
+
+p{
+	color:black;
+	font-size:20px;
+	font-weight:100;
+	
+}
+
+#announcements{
+	color:black;
+	font-size:20px;
+	font-weight: 100;
+}
+
+footer{
+	color:black;
+	background-color: lightskyblue;
+	text-shadow: 1px 1px 1px white;
+	text-align: center;
+}
+
+h3{
+	color:black;
+	background-color:lightskyblue;
+	font-size:22pt;
+	font-style: normal;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px white
+}
